@@ -1,0 +1,2 @@
+# Whizz
+MITHacks Zoom Alternative
