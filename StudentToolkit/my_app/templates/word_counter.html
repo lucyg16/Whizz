@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<style>
+    .container {
+        height: 20px;
+        position: relative;
+    }
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .center-block {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+    }
+</style>
+<html>
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        button {text-align: center;}
+    </style>
+    <font size="3" color="black" face="TimesNewRoman">
+        <title>Word Counter</title>
+        <h1>Word Counter</h1><br>
+        <form method="POST">
+            <textarea name="text" cols="40" rows="5" class="center-block"></textarea>
+            <br>
+            <input type="submit" class="center-block">
+        </form>
+        <br>
+        <body bgcolor="#C3CBD6">
+            <p>Word Count = {{word_count}}</p>
+        </body>
+    </font>
+</html>

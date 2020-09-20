@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<style>
+    .container {
+        height: 20px;
+        position: relative;
+    }
+    .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .button {
+      background-color: red;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      border-radius: 12px;
+    }
+</style>
+<html>
+    <head>
+        <style>
+            h1 {text-align: center;}
+            p {text-align: center;}
+            button {text-align: center;}
+        </style>
+    </head>
+    <font size="6" color="black" face="TimesNewRoman">
+        <title>Widgets</title>
+        <h1>Choose Widget</h1><br>
+        <body bgcolor="#C3CBD6">
+            <div class="container">
+                <div class="center">
+                    <button class="button" onClick="window.location.href='localhost:5000/password_generator'">Password</button>
+                    <button class="button" onClick="window.location.href='localhost:5000/word_counter'">Word Counter</button>
+                    <button class="button" onClick="window.location.href='localhost:5000/remove_leading_and_trailing_whitespace'">Remove Leading and Trailing Whitespace</button>
+                    <button class="button" onClick="window.location.href='localhost:5000/remove_formatting'">Remove Formatting</button>
+                    <button class="button" onClick="window.location.href='localhost:5000/sarcasm'">Sarcasm</button>
+                </div>
+            </div>
+        </body>
+    </font>
+</html>
+
+
